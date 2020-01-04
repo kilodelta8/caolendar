@@ -3,14 +3,16 @@
 {% block body %}
 <body onLoad="setFocus()">
     <br>
-    <iframe src="https://calendar.google.com/calendar/embed?showTitle= *___REPLACE____*  " style="border-width:0" width="790" height="800" frameborder="0" scrolling="no" id="kallender"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=durhamfamily0320%40gmail.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     
     <br>
     <br>
-    
-    <iframe type="text/html" frameborder="0" src="https://www.ostgotatrafiken.se/avgangstavla/himmelstalundsvagen?sort=LineNumber&sub=a" height="300px" width="383px"  scrolling="no" style="border-width:0"> </iframe>
+
+    <iframe id="forecast_embed" frameborder="0" height="245" width="100%" src="//forecast.io/embed/#lat=39.8451&lon=-84.4384&name=Brookville"></iframe>
+    <!--
+    <iframe style="align:left"id="forecast_embed" type="text/html" frameborder="0" height="245px" width="830px" src="http://forecast.io/embed/#lat=58.5993&lon=16.166&name=Norrköping&units=si"> </iframe>
     <iframe type="text/html" frameborder="0" src="https://www.ostgotatrafiken.se/avgangstavla/norrkopings-resecentrum?lines=ostgotapendeln" height="300px" width="383px"  scrolling="no" style="border-width:0"> </iframe>
     
     <br>
-    <iframe style="align:left"id="forecast_embed" type="text/html" frameborder="0" height="245px" width="830px" src="http://forecast.io/embed/#lat=58.5993&lon=16.166&name=Norrköping&units=si"> </iframe>
+    <iframe style="align:left"id="forecast_embed" type="text/html" frameborder="0" height="245px" width="830px" src="http://dataservice.accuweather.com/forecasts/v1/daily/5day/locationKey?apikey=1h1ZC3dr7riDwoQtirqp1u7Lkc3FBbot"> </iframe>-->
 {% endblock %}
